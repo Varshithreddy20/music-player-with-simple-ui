@@ -1,0 +1,447 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>my music</title>
+        <link rel="stylesheet" href="player.css">
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    </head>
+    <body>
+        <audio src="" id="audio-source"></audio>
+
+       <!-- home section -->
+
+<section class="home-section">
+    <!-- carousel -->
+    <div class="carousel">
+        <img src="assets/images/cover1.PNG" class="active" alt="">
+        <img src="assets/images/cover2.PNG" alt="">
+        <img src="assets/images/cover3.PNG" alt="">
+        <img src="assets/images/cover4.PNG" alt="">
+        <img src="assets/images/cover5.PNG" alt="">
+    </div>
+    <h1 class="heading">recently played</h1>
+<div class="playlists-group">
+    <div class="playlist-card">
+        <img src="assets/images/cover9.PNG" class="playlist-card-img" alt="">
+        <p class="playlist-card-name">Top International</p>
+    </div>
+    <div class="playlist-card">
+        <img src="assets/images/cover2.PNG" class="playlist-card-img" alt="">
+        <p class="playlist-card-name">Kollywood</p>
+    </div>
+    <div class="playlist-card">
+        <img src="assets/images/cover10.PNG" class="playlist-card-img" alt="">
+        <p class="playlist-card-name">Bollywood</p>
+    </div>
+    <div class="playlist-card">
+        <img src="assets/images/cover11.PNG" class="playlist-card-img" alt="">
+        <p class="playlist-card-name">Tollywood</p>
+    </div>
+    <div class="playlist-card">
+        <img src="assets/images/cover5.PNG" class="playlist-card-img" alt="">
+        <p class="playlist-card-name">Just Add</p>
+    </div>
+    
+</div>
+<h1 class="heading">based on your listening</h1>
+<div class="playlists-group">
+    <div class="playlist-card">
+        <img src="assets/images/cover5.PNG" class="playlist-card-img" alt="">
+        <p class="playlist-card-name">Top international</p>
+    </div>
+    <div class="playlist-card">
+        <img src="assets/images/cover10.PNG" class="playlist-card-img" alt="">
+        <p class="playlist-card-name">Bollywood</p>
+    </div>
+    <div class="playlist-card">
+        <img src="assets/images/cover7.PNG" class="playlist-card-img" alt="">
+        <p class="playlist-card-name">Kollywood</p>
+    </div>
+    <div class="playlist-card">
+        <img src="assets/images/cover1.PNG" class="playlist-card-img" alt="">
+        <p class="playlist-card-name">Just Add</p>
+    </div>
+    <div class="playlist-card">
+        <img src="assets/images/cover3.PNG" class="playlist-card-img" alt="">
+        <p class="playlist-card-name">Tollywood</p>
+    </div>
+</div>
+</section>
+<section class="music-player-section active">
+
+    <img src="assets/images/back.png" class="back-btn icon hide" alt="">
+    <img src="assets/images/nav.png" class="nav-btn icon hide" alt="">
+
+    <h1 class="current-song-name">Treat You Better</h1>
+    <p class="artist-name hide">Artist 1</p>
+
+    <img src="assets/images/cover1.png" class="cover hide" alt="">
+
+    <div class="seek-bar-container">
+        <input type="range" class="music-seek-bar" value="0">
+        <p class="current-time hide">00 : 00</p>
+        <p class="duration hide">00 : 00</p>
+    </div>
+
+    <div class="controls">
+        <span class="fas fa-redo"></span>
+        <div class="main">
+            <i class="fas fa-backward active"></i>
+            <i class="fas fa-play active"></i>
+            <i class="fas fa-pause"></i>
+            <i class="fas fa-forward active"></i>
+        </div>
+        <span class="like">
+            <i class="fas fa-heart"></i>
+            <i class="fas fa-download"></i>
+        </span>
+        <input type="range" class="volume-slider" max="1" value="1" step="0.1">
+        <span class="fas fa-volume-up"></span>
+    </div>
+
+</section>
+<section class="playlist">
+
+    <img src="assets/images/back.png" class="back-btn icon" alt="">
+    <h1 class="title">playlist</h1>
+    <h2 class="title">Top English Songs</h2>
+    <div class="queue active">
+        <div class="queue-cover">
+            <img src="assets/images/cover1.PNG" alt="">
+            
+            
+        </div>
+        <p class="name">Treat You Better</p>
+        
+
+    </div>
+    <div class="queue active">
+        <div class="queue-cover">
+            <img src="assets/images/cover2.PNG" alt="">
+            <i class="fas fa-pause"></i>
+            
+        </div>
+        
+        <p class="name">Princess Doesn't Cry</p>
+    </div>
+    <div class="queue active">
+        <div class="queue-cover">
+            <img src="assets/images/cover3.PNG" alt="">
+            <i class="fas fa-pause"></i>
+            
+        </div>
+        
+        <p class="name">Animals-Maroon 5</p>
+        
+    </div>
+    <div class="queue active">
+        <div class="queue-cover">
+            <img src="assets/images/cover4.PNG" alt="">
+            <i class="fas fa-pause"></i>
+            
+        </div>
+        
+        <p class="name">Sugar-Maroon 5</p>
+    </div>
+    <div class="queue active">
+        <div class="queue-cover">
+            <img src="assets/images/cover5.PNG" alt="">
+            <i class="fas fa-pause"></i>
+            
+        </div>
+        
+        <p class="name">Sorry</p>
+    </div>
+    <div class="queue active">
+        <div class="queue-cover">
+            <img src="assets/images/cover6.PNG" alt="">
+            <i class="fas fa-pause"></i>
+            
+        </div>
+        
+        <p class="name">Love Story</p>
+    </div>
+    <div class="queue active">
+        <div class="queue-cover">
+            <img src="assets/images/cover7.PNG" alt="">
+            <i class="fas fa-pause"></i>
+            
+        </div>
+        
+        <p class="name">No Lie</p>
+    </div>
+    <div class="queue active">
+        <div class="queue-cover">
+            <img src="assets/images/cover8.PNG" alt="">
+            <i class="fas fa-pause"></i>
+        </div>
+        
+        <p class="name">The Middle</p>
+    </div>
+    <div class="queue active">
+        <div class="queue-cover">
+            <img src="assets/images/cover20.jpg" alt="">
+            <i class="fas fa-pause"></i>
+        </div>
+        
+        <p class="name">Counting Stars</p>
+    </div>
+    <div class="queue active">
+        <div class="queue-cover">
+            <img src="assets/images/cover8.PNG" alt="">
+            <i class="fas fa-pause"></i>
+        </div>
+        
+        <p class="name">What Makes You Better</p>
+    </div>
+    <h3 class="title">Top Hindi Songs</h3>
+    <div class="queue active">
+        <div class="queue-cover">
+            <img src="assets/images/cover22.jpg" alt="">
+            <i class="fas fa-pause"></i>
+        </div>
+        
+        <p class="name">Baarish Ban Jana</p>
+    </div>
+    <div class="queue active">
+        <div class="queue-cover">
+            <img src="assets/images/cover18.jpg" alt="">
+            <i class="fas fa-pause"></i>
+        </div>
+        
+        <p class="name">Dil Diyan Gallam</p>
+    </div>
+    <div class="queue active">
+        <div class="queue-cover">
+            <img src="assets/images/cover3.png" alt="">
+            <i class="fas fa-pause"></i>
+        </div>
+        
+        <p class="name">Raataan Lambiyan</p>
+    </div>
+    <div class="queue active">
+        <div class="queue-cover">
+            <img src="assets/images/cover21.jfif" alt="">
+            <i class="fas fa-pause"></i>
+        </div>
+        
+        <p class="name">The Breakup Song</p>
+    </div>
+    <div class="queue active">
+        <div class="queue-cover">
+            <img src="assets/images/cover20.jpg" alt="">
+            <i class="fas fa-pause"></i>
+        </div>
+        
+        <p class="name">Tip Tip</p>
+    </div>
+    <div class="queue active">
+        <div class="queue-cover">
+            <img src="assets/images/cover19.jpg" alt="">
+            <i class="fas fa-pause"></i>
+        </div>
+        
+        <p class="name">Tu Aake Dekhle</p>
+    </div>
+    <div class="queue active">
+        <div class="queue-cover">
+            <img src="assets/images/cover18.jpg" alt="">
+            <i class="fas fa-pause"></i>
+        </div>
+        
+        <p class="name">Humnava Mere</p>
+    </div>
+    <div class="queue active">
+        <div class="queue-cover">
+            <img src="assets/images/cover17.jpg" alt="">
+            <i class="fas fa-pause"></i>
+        </div>
+        
+        <p class="name">Jugnu</p>
+    </div>
+    <div class="queue active">
+        <div class="queue-cover">
+            <img src="assets/images/cover16.jpg" alt="">
+            <i class="fas fa-pause"></i>
+        </div>
+        
+        <p class="name">Samjhawan</p>
+    </div>
+    <div class="queue active">
+        <div class="queue-cover">
+            <img src="assets/images/cover15.jfif" alt="">
+            <i class="fas fa-pause"></i>
+        </div>
+        
+        <p class="name">Shayad</p>
+    </div>
+    <h4 class="title">Top Telugu Songs</h4>
+    <div class="queue active">
+        <div class="queue-cover">
+            <img src="assets/images/cover30.jpg" alt="">
+            <i class="fas fa-pause"></i>
+        </div>
+        
+        <p class="name">Srivalli</p>
+    </div>
+    <div class="queue active">
+        <div class="queue-cover">
+            <img src="assets/images/cover29.jpg" alt="">
+            <i class="fas fa-pause"></i>
+        </div>
+        
+        <p class="name">Jai Balayya</p>
+    </div>
+    <div class="queue active">
+        <div class="queue-cover">
+            <img src="assets/images/cover28.jfif" alt="">
+            <i class="fas fa-pause"></i>
+        </div>
+        
+        <p class="name">Beemla nayak</p>
+    </div>
+    <div class="queue active">
+        <div class="queue-cover">
+            <img src="assets/images/cover27.jpg" alt="">
+            <i class="fas fa-pause"></i>
+        </div>
+        
+        <p class="name">Naatu Naatu</p>
+    </div>
+    <div class="queue active">
+        <div class="queue-cover">
+            <img src="assets/images/cover26.jpg" alt="">
+            <i class="fas fa-pause"></i>
+        </div>
+        
+        <p class="name">So so ga</p>
+    </div>
+    <div class="queue active">
+        <div class="queue-cover">
+            <img src="assets/images/cover25.jpg" alt="">
+            <i class="fas fa-pause"></i>
+        </div>
+        
+        <p class="name">Neelambari</p>
+    </div>
+    <div class="queue active">
+        <div class="queue-cover">
+            <img src="assets/images/cover24.jpg" alt="">
+            <i class="fas fa-pause"></i>
+        </div>
+        
+        <p class="name">E rathale</p>
+    </div>
+    <div class="queue active">
+        <div class="queue-cover">
+            <img src="assets/images/cover23.jpeg" alt="">
+            <i class="fas fa-pause"></i>
+        </div>
+        
+        <p class="name">Manasu mari</p>
+    </div>
+    <div class="queue active">
+        <div class="queue-cover">
+            <img src="assets/images/cover22.jpg" alt="">
+            <i class="fas fa-pause"></i>
+        </div>
+        
+        <p class="name">Saaranga dhariya</p>
+    </div>
+    <div class="queue active">
+        <div class="queue-cover">
+            <img src="assets/images/cover21.jfif" alt="">
+            <i class="fas fa-pause"></i>
+        </div>
+        
+        <p class="name">Oka pranam</p>
+    </div>
+    <h5 class="title">Top Tamil Songs</h5>
+    <div class="queue active">
+        <div class="queue-cover">
+            <img src="assets/images/cover8.PNG" alt="">
+            <i class="fas fa-pause"></i>
+        </div>
+        
+        <p class="name">En Iniya Thanimaye</p>
+    </div>
+    <div class="queue active">
+        <div class="queue-cover">
+            <img src="assets/images/cover10.png" alt="">
+            <i class="fas fa-pause"></i>
+        </div>
+        
+        <p class="name">Piriyadha Enna</p>
+    </div>
+    <div class="queue active">
+        <div class="queue-cover">
+            <img src="assets/images/cover9.PNG" alt="">
+            <i class="fas fa-pause"></i>
+        </div>
+        
+        <p class="name">Vaseegara Zara Zara Mashup</p>
+    </div>
+    <div class="queue active">
+        <div class="queue-cover">
+            <img src="assets/images/cover14.jpg" alt="">
+            <i class="fas fa-pause"></i>
+        </div>
+        
+        <p class="name">Happy Birthday</p>
+    </div>
+    <div class="queue active">
+        <div class="queue-cover">
+            <img src="assets/images/cover15.jfif" alt="">
+            <i class="fas fa-pause"></i>
+        </div>
+        
+        <p class="name">Kathari Poovazhagi</p>
+    </div>
+    <div class="queue active">
+        <div class="queue-cover">
+            <img src="assets/images/cover16.jpg" alt="">
+            <i class="fas fa-pause"></i>
+        </div>
+        
+        <p class="name">Chill Bro</p>
+    </div>
+    <div class="queue active">
+        <div class="queue-cover">
+            <img src="assets/images/cover17.jpg" alt="">
+            <i class="fas fa-pause"></i>
+        </div>
+        
+        <p class="name">Yelo Pullelo</p>
+    </div>
+    <div class="queue active">
+        <div class="queue-cover">
+            <img src="assets/images/cover18.jpg" alt="">
+            <i class="fas fa-pause"></i>
+        </div>
+        
+        <p class="name">Kanave Nee Naan</p>
+    </div>
+    <div class="queue active">
+        <div class="queue-cover">
+            <img src="assets/images/cover19.jpg" alt="">
+            <i class="fas fa-pause"></i>
+        </div>
+        
+        <p class="name">Oru Chance Kudu</p>
+    </div>
+    <div class="queue active">
+        <div class="queue-cover">
+            <img src="assets/images/cover20.jpg" alt="">
+            <i class="fas fa-pause"></i>
+        </div>
+        
+        <p class="name">Naan Un Joshua</p>
+    </div>
+</section>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+    </body>
+</html>
